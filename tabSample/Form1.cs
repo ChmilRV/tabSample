@@ -18,6 +18,7 @@ namespace tabSample
         SqlDataAdapter dataAdapter = null;
         DataSet dataSet = null;
         SqlCommandBuilder commandBuilder = null;
+        ListView lv = null;
         string connString = "";
 
         public Form1()
@@ -50,6 +51,9 @@ namespace tabSample
                 commandBuilder = new SqlCommandBuilder(dataAdapter);
                 dataAdapter.Fill(dataSet, "table_1");
                 dataGridView1.DataSource = dataSet.Tables["table_1"];
+                lv = new ListView();
+
+                
 
 
             }

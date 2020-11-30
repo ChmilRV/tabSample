@@ -45,7 +45,7 @@
             this.tabControl1.Location = new System.Drawing.Point(16, 43);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(772, 395);
+            this.tabControl1.Size = new System.Drawing.Size(772, 513);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -55,7 +55,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(764, 369);
+            this.tabPage1.Size = new System.Drawing.Size(764, 487);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -63,9 +63,9 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(434, 227);
+            this.listView1.Location = new System.Drawing.Point(19, 283);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(301, 120);
+            this.listView1.Size = new System.Drawing.Size(598, 120);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 580);
             this.Controls.Add(this.button_startQuery);
             this.Controls.Add(this.comboBox_queryText);
             this.Controls.Add(this.tabControl1);
